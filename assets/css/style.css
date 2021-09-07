@@ -95,6 +95,10 @@
         background: #666;
     }
 
+    div#category-carousel .menu-icon img {
+        width: 70px;
+    }
+
     .myslider {
         height: auto;
         width: auto;
@@ -169,10 +173,14 @@
     }
 }
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
+    .mobile-menu.mean-container {
+        position: absolute;
+        top: 53px;
+    }
     a.meanmenu-reveal.meanclose {
-        top: -130%;
-        left: 110px !important;
+        top: -38px;
+        left: 186px !important;
         border: 1px solid #000;
     }
 }

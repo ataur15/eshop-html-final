@@ -43,5 +43,17 @@
                 }
             }
         });
+        $("#category-carousel").owlCarousel({
+            autoplay: true,
+            items: 4,
+            loop:true,
+            margin: 25,
+            responsiveClass: true,
+            autoHeight: false,
+            autoplayTimeout: 3000,
+            smartSpeed: 300,
+            nav: false,
+            dots: true,
+        });
     });
 })(jQuery);
