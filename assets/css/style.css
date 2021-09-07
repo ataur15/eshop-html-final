@@ -76,25 +76,23 @@
     }
 
     .nav-menu ul {
-        padding: 10px 20px;
         margin: 0;
     }
 
     .nav-menu ul li {
         display: inline-block;
-        padding: 0 6px;
-        margin: 0;
     }
 
     .nav-menu ul li a {
         color: #fff;
-        font-size: 15px;
         font-weight: 500;
-        list-style-type: disc;
+        font-size: 16px;
+        padding: 12px 12px;
+        display: block;
     }
 
     .nav-menu ul li a:hover {
-        color: #e8e8e8;
+        background: #666;
     }
 
     .myslider {
@@ -157,11 +155,6 @@
     }
 }
 
-@media (min-width: 1024px) {
-    .nav-menu ul li {
-        padding: 0 18px 0 0;
-    }
-}
 
 @media (max-width: 766px) {
 

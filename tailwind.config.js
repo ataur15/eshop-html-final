@@ -8,6 +8,11 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            backgroundColor: theme => ({
+                ...theme('colors'),
+                'menu-first': '#85bb3f',
+                'menu-second': '#548e00',
+            }),
             colors: {
                 fuchsia: colors.fuchsia,
                 cyan: colors.cyan,
