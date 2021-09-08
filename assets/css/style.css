@@ -116,6 +116,7 @@
         width: 100%;
     }
 
+    /* Tab style for calender */
     .tab-content {
         display: none;
     }
@@ -140,6 +141,33 @@
         color: #fff;
 
     }
+
+    /* Tab style for top products */
+    .mab-content {
+        display: none;
+    }
+
+    .mab-content.active {
+        display: block;
+    }
+
+    .mabs button.mab {
+        padding: 7px 12px;
+        border: 1px solid #ccc;
+        margin: 0 0 8px 0px;
+        font-weight: 500;
+    }
+
+    .mabs button.mab:focus {
+        outline: none;
+    }
+
+    .mabs button.active {
+        background: #047857;
+        color: #fff;
+
+    }
+
 
     .footer ul li a {
         line-height: 28px;
