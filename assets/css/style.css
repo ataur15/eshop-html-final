@@ -9,6 +9,10 @@
         font-size: 16px;
     }
 
+    th {
+        font-weight: 500;
+    }
+
     .page {
         background: #fff;
         box-shadow: 0 2px 10px #c1c1c1;
@@ -46,8 +50,9 @@
     span.search_icon {
         position: absolute;
         color: #666;
-        right: 8px;
-        top: 10px;
+        right: 10px;
+        top: 3px;
+        font-size: 18px;
     }
 
     .top-menu ul {
@@ -96,7 +101,7 @@
     }
 
     div#category-carousel .menu-icon img {
-        width: 70px;
+        width: 60px;
     }
 
     .myslider {
@@ -189,7 +194,6 @@
 
 
 @media (max-width: 766px) {
-
     nav.mean-nav.slideNav li a {
         display: flex;
         align-items: center;
@@ -199,15 +203,18 @@
         flex: 0 1 auto;
         margin: 0 12px 0 0;
     }
-}
 
-@media (min-width: 320px) {
+    .top-menu ul li:first-child {
+        display: none;
+    }
+
     .mobile-menu.mean-container {
         position: absolute;
-        top: 53px;
+        top: 102px;
     }
+
     a.meanmenu-reveal.meanclose {
-        top: -38px;
+        top: -90px;
         left: 186px !important;
         border: 1px solid #000;
     }
