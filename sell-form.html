@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>eShop</title>
+		<link rel="stylesheet" href="public/css/menu.css">
+		<link rel="stylesheet" href="public/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="public/css/owl.theme.default.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<section class="top-section">
+			<div class="xl:w-3/4 lg:w-4/5 mx-auto">
+				<div class="pr-6 text-red-500 font-semibold help_line text-center md:text-right">Help Line:
+					<span class="inline-block w-4"><i class="ri-phone-fill"></i></span> +88 01984414120
+				</div>
+			</div>
+		</section> <!-- Top section end -->
+
+		<section class="main-section w-full xl:w-3/4 lg:w-4/5 mx-auto px-3 md:px-5 page">
+			<div class="pt-5 grid xl:grid-cols-6 lg:grid-cols-5 grid-cols-1">
+				<div class="xl:col-span-1 lg:col-span-1 mb-2 md:flex md:justify-center md:items-center">
+					<div class="mobile-menu"></div>
+					<div class="logo"><a href="#"><img class="mx-auto lg:mx-0" src="public/images/logo.png" alt=""></a>
+					</div>
+				</div>
+				<div class="xl:col-span-5 lg:col-span-4">
+					<div class="top-bar">
+						<div class="top-menu lg:text-right text-center mb-2">
+							<ul>
+								<li>
+									<a href="#">
+										<i class="ri-home-4-line"></i>
+										Home
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="ri-account-circle-line"></i>
+										My Account
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="ri-user-line"></i>
+										Register
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="ri-login-box-line"></i>
+										Sign In
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="grid xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-5 mb-2">
+							<div
+								class="nav-menu xl:mr-2 lg:mr-2 md:mr-2 rounded bg-menu-first xl:col-span-3 lg:col-span-3 md:col-span-3 mb-2 md:mb-0">
+								<ul class="text-center md:text-left">
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Products</a></li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</div>
+							<div class="cart-bar rounded bg-menu-first xl:col-span-2 lg:col-span-2 md:col-span-2">
+								<div class="flex">
+									<div class="flex-auto px-4 py-2 text-white font-semibold">
+										<span><i class="ri-shopping-cart-line"></i> 1 Item</span>
+										<span class="ml-2">TK.00</span>
+									</div>
+									<div class="flex-auto">
+										<button type="button"
+											class="rounded font-semibold bg-menu-second focus:outline-none float-right cursor-pointer text-white px-3 py-3">My
+											Order</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="xl:my-4 lg:my-5 md:my-5 menu-container">
+							<div class="menubar">
+								<nav id="main-menu" class="menu-header-menu-container" style="display: block;">
+									<ul>
+										<li>
+											<a href="#">
+												<span class="menu-icon">
+													<img class="w-9" src="public/images/healthy-food.svg" alt="">
+												</span>
+												<span>Vegetable</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="menu-icon">
+													<img class="w-9" src="public/images/fish.svg" alt="">
+												</span>
+												<span>Fish &amp; Meat</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="menu-icon">
+													<img class="w-9" src="public/images/dry-fish.svg" alt="">
+												</span>
+												<span>Dry Fish</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="menu-icon">
+													<img class="w-9" src="public/images/spices.svg" alt="">
+												</span>
+												<span>Spices</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="menu-icon">
+													<img class="w-9" src="public/images/fruits.svg" alt="">
+												</span>
+												<span>Fruits</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="menu-icon">
+													<img class="w-9" src="public/images/dress.svg" alt="">
+												</span>
+												<span>Clothes</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="menu-icon">
+													<img class="w-9" src="public/images/honey.svg" alt="">
+												</span>
+												<span>Honey</span>
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="search-bar mb-4 relative">
+							<input
+								class="rounded text-gray-500 border border-gray-300 focus:outline-none focus-visible:border-gray-300 focus:border-gray-300 w-full px-2 py-1"
+								placeholder="Search..." type="text">
+							<span class="search_icon">
+								<i class="ri-search-line"></i>
+							</span>
+						</div>
+						<div class="md:hidden">
+							<div id="category-carousel" class="owl-carousel owl-theme">
+								<div class="text-center">
+									<a href="#">
+										<span class="menu-icon">
+											<img class="mx-auto" src="public/images/healthy-food.svg" alt="">
+										</span>
+										<span>Vegetable</span>
+									</a>
+								</div>
+								<div class="text-center">
+									<a href="#">
+										<span class="menu-icon">
+											<img class="mx-auto" src="public/images/fish.svg" alt="">
+										</span>
+										<span>Fish &amp; Meat</span>
+									</a>
+								</div>
+								<div class="text-center">
+									<a href="#">
+										<span class="menu-icon">
+											<img class="mx-auto" src="public/images/dry-fish.svg" alt="">
+										</span>
+										<span>Dry Fish</span>
+									</a>
+								</div>
+								<div class="text-center">
+									<a href="#">
+										<span class="menu-icon">
+											<img class="mx-auto" src="public/images/spices.svg" alt="">
+										</span>
+										<span>Spices</span>
+									</a>
+								</div>
+								<div class="text-center">
+									<a href="#">
+										<span class="menu-icon">
+											<img class="mx-auto" src="public/images/fruits.svg" alt="">
+										</span>
+										<span>Fruits</span>
+									</a>
+								</div>
+								<div class="text-center">
+									<a href="#">
+										<span class="menu-icon">
+											<img class="mx-auto" src="public/images/dress.svg" alt="">
+										</span>
+										<span>Clothes</span>
+									</a>
+								</div>
+								<div class="text-center">
+									<a href="#">
+										<span class="menu-icon">
+											<img class="mx-auto" src="public/images/honey.svg" alt="">
+										</span>
+										<span>Honey</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- Header end -->
+
+			<div class="md:my-10 my-3">
+				<div class="bg-red-600 text-white text-center px-3 py-3 mb-6">
+					<span>Sell </span><span>/ বিক্রেতার ডাক</span>
+				</div>
+				<div class="grid grid-cols-1 lg:grid-cols-12 mb-6">
+					<div class="col-span-9 lg:pr-6 mb-6">
+						<form action="">
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Products Name (পণ্যের নাম)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Order Quantity (পরিমাণ kg/pcs/ltr)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Unit Price (একক মূল্য)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Total Price (মোট মূল্য)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Top Buyer Rate (সর্বোচ্চ ক্রেতার দর)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Delivery Charge (ডেলিভারি চার্জ)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Pay Amount (পরিশোধিত মূল্য)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Effective Date (ইফেক্টিভ তারিখ)</label>
+								<input type="date" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Expired Date (এক্সপেরিড তারিখ)</label>
+								<input type="date" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-6">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Remarks (মন্তব্য)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="text-center mb-4">
+								<button class="bg-green-700 hover:bg-green-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">To Participate (অংশ গ্রহণ)</button>
+							</div>
+						</form>
+						<div class="text-center">
+							<button class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Back</button>
+							<button class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Next</button>
+						</div>
+					</div>
+					<div class="col-span-3">
+						<div class="bg-gray-100">
+							<h2 class="bg-gray-500 text-white px-3 py-3"><span>Products and Delivery Information</span><br><span>পণ্য এবং ডেলিভারি তথ্য সম্পর্কে জানুন</span></h2>
+							<div class="px-3 py-3">
+								<p class="mb-2">Tiger Prawn from Mongla eshop center no priservetive and camicle free products.Tiger Prawn from Mongla eshop center no priservetive and camicle free products.</p>
+								<p>Know about more please contuct us 01984 414101</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="grid grid-cols-1 lg:grid-cols-12">
+					<div class="col-span-9 lg:pr-6 mb-3">
+						<p class="font-medium mb-3">Tiger Prawn</p>
+						<div class="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-3 border border-gray-300">
+							<div>
+								<table class="w-full h-full">
+									<thead>
+										<tr class="border-b border-gray-300 bg-gray-100">
+											<th class="px-2 py-2"><span>Products Name</span> <span>(পণ্যের নাম)</span></th>
+											<th class="px-2 py-2">&nbsp;</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="px-2 py-2 border-r border-gray-300">
+												<div class="mb-6">
+													Tiger Prawn <br>
+													(Per Kg 8-10 PCS)
+												</div>
+												<div>
+													<span>
+														গলদা চিংড়ি<br>
+														( প্রতি কেজি ৮ - ১০ পিস )
+													</span>
+												</div>
+											</td>
+											<td class="px-2 py-2"><img src="public/images/product-2.jpg" alt=""></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="border-l-0 md:border-l border-gray-300">
+								<table class="w-full">
+									<thead>
+										<tr class="bg-gray-100 border-b border-t md:border-t-0 border-gray-300">
+											<th class="px-2 py-2 border-r border-gray-300"><span>Quantity</span><br><span>(পরিমাণ)</span></th>
+											<th class="px-2 py-2 border-r border-gray-300"><span>Bid</span><br><span>(ক্রেতার মূল্য)</span></th>
+											<th class="px-2 py-2 border-r border-gray-300"><span>Ask</span><br><span>(বিক্রেতার ডাক)</span></th>
+											<th class="px-2 py-2 border-gray-300"><span>Quantity</span><br><span>(পরিমাণ)</span></th>
+										</tr>
+									</thead>
+									<tbody class="text-center">
+										<tr class="border-b border-gray-300">
+											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">200 kg</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">300 kg</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-red-500 font-medium">750 BDT</td>
+											<td class="px-2 py-2 text-red-500 font-medium">300 kg</td>
+										</tr>
+										<tr class="border-b border-gray-300">
+											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">200 kg</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">300 kg</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-red-500 font-medium">0</td>
+											<td class="px-2 py-2 text-red-500 font-medium">0</td>
+										</tr>
+										<tr>
+											<td>&nbsp;</td>
+											<td>&nbsp;</td>
+											<td>&nbsp;</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td colspan="2"><button class="px-6 py-1 text-center bg-green-700 hover:bg-green-600 text-white"><span>Buyer</span><span>/ক্রেতা</span></button></td>
+											<td colspan="2"><button class="px-6 py-1 text-center bg-red-600 hover:bg-red-500 text-white"><span>Seller</span><span>/বিক্রেতা</span></button></td>
+										</tr>
+										<tr><td colspan="2">&nbsp;</td></tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="col-span-3">
+						<p class="font-medium">Delivery Charge Details</p>
+						<div class="border border-gray-300 py-6 px-6 my-3">
+							<ul class="list-disc px-4">
+								<li>40-80 kg =200 Tk.</li>
+								<li>100-200 Kg = 400 Tk.</li>
+								<li>400-1500 Kg = 1000 Tk.</li>
+								<li>1600-2000 Kg = 1500 Tk.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="footer lg:pt-10">
+				<div
+					class="grid text-center md:text-left xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 grid-cols-1 lg:mb-6">
+					<div class="xl:mr-4 lg:mr-4 md:mr-4 xl:mb-0 lg:mb-0 md:mb-0 mb-3">
+						<h3 class="text-green-700 border-b mb-3 pb-2 border-solid border-green-600">Help Links</h3>
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Press Media</a></li>
+						</ul>
+					</div>
+					<div class="xl:mr-4 lg:mr-4 md:mr-4 xl:mb-0 lg:mb-0 md:mb-0 mb-3">
+						<h3 class="text-green-700 border-b mb-3 pb-2 border-solid border-green-600">Process</h3>
+						<ul>
+							<li><a href="#">How you can oder or buy</a></li>
+							<li><a href="#">Payment method</a></li>
+							<li><a href="#">Return policy</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+					<div class="xl:mr-4 lg:mr-4 md:mr-4 xl:mb-0 lg:mb-0 md:mb-0 mb-3">
+						<h3 class="text-green-700 border-b mb-3 pb-2 border-solid border-green-600">Shop Register</h3>
+						<ul>
+							<li><a href="#">Farmer</a></li>
+							<li><a href="#">Fisherman</a></li>
+							<li><a href="#">Women enterprenuer</a></li>
+							<li><a href="#">Youth enterprenuer</a></li>
+						</ul>
+					</div>
+					<div class="xl:mr-4 lg:mr-4 md:mr-4 xl:mb-0 lg:mb-0 md:mb-0 mb-3">
+						<h3 class="text-green-700 border-b mb-3 pb-2 border-solid border-green-600">My Account</h3>
+						<ul>
+							<li><a href="#">My order</a></li>
+							<li><a href="#">My Address book</a></li>
+							<li><a href="#">My wishlisht</a></li>
+							<li><a href="#">Sign for newsletter</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-mid hidden lg:block lg:-mx-5 py-10 px-5">
+					<div class="grid xl:grid-cols-3 lg:grid-cols-3 grid-cols-1">
+						<div class="mb-5 xl:mb-0 lg:mb-0">
+							<h3 class="mb-2 text-gray-600">A Project By</h3>
+							<img src="public/images/ict.png" alt="">
+						</div>
+						<div class="mb-5 xl:mb-0 lg:mb-0">
+							<h3 class="mb-2 text-gray-600">Shop safely with eshop</h3>
+							<img src="public/images/bank.png" alt="">
+						</div>
+						<div class="social xl:text-right lg:text-right">
+							<h3 class="mb-2 text-gray-600">We are social</h3>
+							<ul class="">
+								<li><a href="#"><img src="public/images/fb.png" alt=""></a></li>
+								<li><a href="#"><img src="public/images/tw.png" alt=""></a></li>
+								<li><a href="#"><img src="public/images/yt.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="bg-gray-200 -mx-3 lg:-mx-5 py-3 px-5 text-center text-gray-600">
+					<p>© 2021 eshop. All Rights Reserved. Powered by FSB</p>
+				</div>
+			</footer>
+		</section>
+		<!-- Main section end -->
+
+		<script type="module" src="./assets/js/main.js"></script>
+		<script type="module" src="public/js/jquery-3.3.1.min.js"></script>
+		<script type="module" src="public/js/menu.js"></script>
+		<script type="module" src="public/js/owl.carousel.min.js"></script>
+		<script type="module" src="public/js/eshop.js"></script>
+	</body>
+
+</html>

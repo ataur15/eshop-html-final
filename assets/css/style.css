@@ -194,6 +194,9 @@
 
 
 @media (max-width: 766px) {
+    .logo img {
+        width: 100px;
+    }
     nav.mean-nav.slideNav li a {
         display: flex;
         align-items: center;
