@@ -218,12 +218,16 @@
 			</div> <!-- Header end -->
 
 			<div class="md:my-10 my-3">
-				<div class="bg-red-600 text-white text-center px-3 py-3 mb-6">
-					<span>Sell </span><span>/ বিক্রেতার ডাক</span>
+				<div class="bg-green-700 text-white text-center px-3 py-3 mb-6">
+					<span>Bid (Buyer) Update Form </span><span>/ ক্রেতার প্রস্তাবিত মূল্যের আপডেট ফর্ম</span>
 				</div>
 				<div class="grid grid-cols-1 lg:grid-cols-12 mb-6">
 					<div class="col-span-9 lg:pr-6 mb-6">
 						<form action="">
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Order No (অর্ডার নং)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
 							<div class="md:flex items-center mb-2">
 								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Products Name (পণ্যের নাম)</label>
 								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
@@ -241,7 +245,19 @@
 								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Top Buyer Rate (সর্বোচ্চ ক্রেতার দর)</label>
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Top Seller Rate (সর্বনিম্ম বিক্রয় দর)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Available Quantity (সর্বদা পরিমান)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Executive Quantity (নিশ্চিত পরিমান)</label>
+								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+							</div>
+							<div class="md:flex items-center mb-2">
+								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Booked Quantity (গৃহীত পরিমান)</label>
 								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
@@ -264,14 +280,12 @@
 								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Remarks (মন্তব্য)</label>
 								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
-							<div class="text-center mb-4">
-								<button class="bg-green-700 hover:bg-green-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">To Participate (অংশ গ্রহণ)</button>
+							<div class="text-center">
+								<button class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Back</button>
+								<button class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Update Order</button>
 							</div>
 						</form>
-						<div class="text-center">
-							<button class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Back</button>
-							<button class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Next</button>
-						</div>
+
 					</div>
 					<div class="col-span-3">
 						<div class="bg-gray-100">
