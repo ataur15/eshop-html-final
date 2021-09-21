@@ -12,6 +12,7 @@ export default {
                 list: resolve(__dirname, 'list.html'),
                 trading: resolve(__dirname, 'trading.html'),
                 login: resolve(__dirname, 'login.html'),
+                register: resolve(__dirname, 'register.html'),
                 sell_form: resolve(__dirname, 'sell-form.html'),
                 sell_update_form: resolve(__dirname, 'sell-update-form.html'),
                 buy_form: resolve(__dirname, 'buy-form.html'),

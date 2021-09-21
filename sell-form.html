@@ -41,19 +41,31 @@
 								<li>
 									<a href="#">
 										<i class="ri-account-circle-line"></i>
-										My Account
+										My Order
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="ri-account-box-line"></i>
+										My invoice & payment
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="ri-bank-card-line"></i>
+										Payment History
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<i class="ri-user-line"></i>
-										Register
+										Welcome! User name
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<i class="ri-login-box-line"></i>
-										Sign In
+										<i class="ri-logout-box-line"></i>
+										Sign Out
 									</a>
 								</li>
 							</ul>
@@ -225,59 +237,87 @@
 					<div class="col-span-9 lg:pr-6 mb-6">
 						<form action="">
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Products Name (পণ্যের নাম)</label>
-								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Products Name
+									(পণ্যের নাম)</label>
+								<input type="text"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Order Quantity (পরিমাণ kg/pcs/ltr)</label>
-								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Order Quantity
+									(পরিমাণ kg/pcs/ltr)</label>
+								<input type="text"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Unit Price (একক মূল্য)</label>
-								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Unit Price (একক
+									মূল্য)</label>
+								<input type="text"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Total Price (মোট মূল্য)</label>
-								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Total Price
+									(মোট
+									মূল্য)</label>
+								<input type="text"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Top Buyer Rate (সর্বোচ্চ ক্রেতার দর)</label>
-								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Top Buyer Rate
+									(সর্বোচ্চ ক্রেতার দর)</label>
+								<input type="text"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Delivery Charge (ডেলিভারি চার্জ)</label>
-								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Delivery Charge
+									(ডেলিভারি চার্জ)</label>
+								<input type="text"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Pay Amount (পরিশোধিত মূল্য)</label>
-								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Pay Amount
+									(পরিশোধিত মূল্য)</label>
+								<input type="text"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Effective Date (ইফেক্টিভ তারিখ)</label>
-								<input type="date" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Effective Date
+									(ইফেক্টিভ তারিখ)</label>
+								<input type="date"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-2">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Expired Date (এক্সপেরিড তারিখ)</label>
-								<input type="date" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Expired Date
+									(এক্সপেরিড তারিখ)</label>
+								<input type="date"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="md:flex items-center mb-6">
-								<label for="twitter" class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Remarks (মন্তব্য)</label>
-								<input type="text" class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+								<label class="inline-block md:w-64 mb-2 md:mr-6 text-left text-gray-600">Remarks
+									(মন্তব্য)</label>
+								<input type="text"
+									class="w-full md:flex-1 rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 							</div>
 							<div class="text-center mb-4">
-								<button class="bg-green-700 hover:bg-green-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">To Participate (অংশ গ্রহণ)</button>
+								<button
+									class="bg-green-700 hover:bg-green-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">To
+									Participate (অংশ গ্রহণ)</button>
 							</div>
 						</form>
 						<div class="text-center">
-							<button class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Back</button>
-							<button class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Next</button>
+							<button
+								class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Back</button>
+							<button
+								class="bg-gray-700 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Next</button>
 						</div>
 					</div>
 					<div class="col-span-3">
 						<div class="bg-gray-100">
-							<h2 class="bg-gray-500 text-white px-3 py-3"><span>Products and Delivery Information</span><br><span>পণ্য এবং ডেলিভারি তথ্য সম্পর্কে জানুন</span></h2>
+							<h2 class="bg-gray-500 text-white px-3 py-3"><span>Products Information</span><br><span>পণ্য
+									তথ্য সম্পর্কে জানুন</span></h2>
 							<div class="px-3 py-3">
-								<p class="mb-2">Tiger Prawn from Mongla eshop center no priservetive and camicle free products.Tiger Prawn from Mongla eshop center no priservetive and camicle free products.</p>
+								<p class="mb-2">Tiger Prawn from Mongla eshop center no priservetive and camicle free
+									products.Tiger Prawn from Mongla eshop center no priservetive and camicle free
+									products.</p>
 								<p>Know about more please contuct us 01984 414101</p>
 							</div>
 						</div>
@@ -286,12 +326,14 @@
 				<div class="grid grid-cols-1 lg:grid-cols-12">
 					<div class="col-span-9 lg:pr-6 mb-3">
 						<p class="font-medium mb-3">Tiger Prawn</p>
-						<div class="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-3 border border-gray-300">
+						<div
+							class="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-3 border border-gray-300">
 							<div>
 								<table class="w-full h-full">
 									<thead>
 										<tr class="border-b border-gray-300 bg-gray-100">
-											<th class="px-2 py-2"><span>Products Name</span> <span>(পণ্যের নাম)</span></th>
+											<th class="px-2 py-2"><span>Products Name</span> <span>(পণ্যের নাম)</span>
+											</th>
 											<th class="px-2 py-2">&nbsp;</th>
 										</tr>
 									</thead>
@@ -318,36 +360,39 @@
 								<table class="w-full">
 									<thead>
 										<tr class="bg-gray-100 border-b border-t md:border-t-0 border-gray-300">
-											<th class="px-2 py-2 border-r border-gray-300"><span>Quantity</span><br><span>(পরিমাণ)</span></th>
-											<th class="px-2 py-2 border-r border-gray-300"><span>Bid</span><br><span>(ক্রেতার মূল্য)</span></th>
-											<th class="px-2 py-2 border-r border-gray-300"><span>Ask</span><br><span>(বিক্রেতার ডাক)</span></th>
-											<th class="px-2 py-2 border-gray-300"><span>Quantity</span><br><span>(পরিমাণ)</span></th>
+											<th class="px-2 py-2 border-r border-gray-300">
+												<span>Quantity</span><br><span>(পরিমাণ)</span>
+											</th>
+											<th class="px-2 py-2 border-r border-gray-300">
+												<span>Bid</span><br><span>(ক্রেতার মূল্য)</span>
+											</th>
+											<th class="px-2 py-2 border-r border-gray-300">
+												<span>Ask</span><br><span>(বিক্রেতার ডাক)</span>
+											</th>
+											<th class="px-2 py-2 border-gray-300">
+												<span>Quantity</span><br><span>(পরিমাণ)</span>
+											</th>
 										</tr>
 									</thead>
 									<tbody class="text-center">
 										<tr class="border-b border-gray-300">
-											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">200 kg</td>
-											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">300 kg</td>
-											<td class="px-2 py-2 border-r border-gray-300 text-red-500 font-medium">750 BDT</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">
+												200 kg</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">
+												300 kg</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-red-500 font-medium">750
+												BDT</td>
 											<td class="px-2 py-2 text-red-500 font-medium">300 kg</td>
 										</tr>
 										<tr class="border-b border-gray-300">
-											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">200 kg</td>
-											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">300 kg</td>
-											<td class="px-2 py-2 border-r border-gray-300 text-red-500 font-medium">0</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">
+												200 kg</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-green-600 font-medium">
+												300 kg</td>
+											<td class="px-2 py-2 border-r border-gray-300 text-red-500 font-medium">0
+											</td>
 											<td class="px-2 py-2 text-red-500 font-medium">0</td>
 										</tr>
-										<tr>
-											<td>&nbsp;</td>
-											<td>&nbsp;</td>
-											<td>&nbsp;</td>
-											<td>&nbsp;</td>
-										</tr>
-										<tr>
-											<td colspan="2"><button class="px-6 py-1 text-center bg-green-700 hover:bg-green-600 text-white"><span>Buyer</span><span>/ক্রেতা</span></button></td>
-											<td colspan="2"><button class="px-6 py-1 text-center bg-red-600 hover:bg-red-500 text-white"><span>Seller</span><span>/বিক্রেতা</span></button></td>
-										</tr>
-										<tr><td colspan="2">&nbsp;</td></tr>
 									</tbody>
 								</table>
 							</div>
