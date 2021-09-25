@@ -5,10 +5,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>eShop</title>
-		<!-- <link rel="stylesheet" href="public/css/menu.css">
+		<link rel="stylesheet" href="public/css/menu.css">
 		<link rel="stylesheet" href="public/css/owl.carousel.min.css">
 		<link rel="stylesheet" href="public/css/owl.theme.default.min.css">
-		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 	</head>
 
 	<body>
@@ -228,89 +229,174 @@
 				</div>
 			</div> <!-- Header end -->
 
-			<div class="w-full lg:w-3/4 md:px-10 md:py-10 md:my-10 my-3 mx-auto md:bg-gray-200">
-				<div class="w-full max-w-lg mx-auto">
-					<div class="md:mb-6">
-						<h1 class="text-3xl mb-1">Welcome!</h1>
-						<p>Sign up or login to continue</p>
-					</div>
-					<form class="bg-white md:shadow-md rounded md:px-8 py-6">
-						<div class="mb-4">
-							<label class="block text-gray-700 font-medium mb-2" for="username">
-								Username
-							</label>
-							<input
-								class="shadow rounded-md border border-gray-300 w-full py-2 px-3 text-gray-700 leading-tight focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-								id="username" type="text" placeholder="Username">
-						</div>
-						<div class="mb-4">
-							<label class="block text-gray-700 font-medium mb-2" for="password">
-								Password
-							</label>
-							<input
-								class="shadow rounded-md border border-gray-300 w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-								id="password" type="password" placeholder="*******">
-						</div>
-						<div class="flex items-center justify-between mb-4">
-							<button
-								class="bg-green-700 hover:bg-green-600 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-								type="button">
-								Sign In
-							</button>
-							<a class="inline-block align-baseline text-blue-500 hover:text-blue-800" href="#">
-								Forgot Password?
-							</a>
-						</div>
-						<div class="mb-4">
-							<p class="font-medium text-gray-700 mb-2">Login with</p>
-							<div class="flex items-center">
-								<button
-									class="bg-blue-500 hover:bg-blue-700 mr-2 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-									type="button">
-									Facebook
-								</button>
-								<button
-									class="bg-red-500 hover:bg-red-700 mr-2 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-									type="button">
-									Gmail
-								</button>
-								<button
-									class="bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-									type="button">
-									Mobile
-								</button>
+			<div class="text-center mt-10">
+				<div class="text-2xl">Title: Invoice</div>
+				<div>টাইটেল: ইনভয়েস</div>
+			</div>
+
+			<div class="md:my-10 my-3 w-full md:w-11/12 m-auto">
+				<div class="mb-3 text-gray-600 text-center md:text-left">Buyer Invoice (বায়ার ইনভয়েস)</div>
+				<div class="md:border border-gray-300 md:py-5 md:px-5">
+
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Products Category</span> <span>(পণ্য ক্যাটাগরি):</span>
 							</div>
+							<input type="text" value="Fresh Fish"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 						</div>
 						<div>
-							<p class="font-medium text-gray-700 mb-2">Register</p>
-							<div class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-2">
-								<button type="button"
-									class="bg-green-500 hover:bg-gray-300 transition px-3 py-3 text-center">
-									<p class="text-center"><i class="ri-user-3-line"></i></p>
-									<div class="leading-5">
-										<div><span>Register</span><span>/নিবন্ধন</span></div>
-										<div><span>I am buyer</span><span>/আমি ক্রেতা</span></div>
-									</div>
-								</button>
-								<button type="button"
-									class="bg-menu-first hover:bg-gray-300 transition px-3 py-3 text-center">
-									<p class="text-center"><i class="ri-user-3-line"></i></p>
-									<div class="leading-5">
-										<div><span>Register</span><span>/নিবন্ধন</span></div>
-										<div><span>I am seller</span><span>/আমি বিক্রেতা</span></div>
-									</div>
-								</button>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Products Name</span> <span>(পণ্যের নাম):</span>
 							</div>
-							<div>
-								<label class="inline-flex items-center">
-									<input type="checkbox"
-										class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50"
-										checked="">
-									<span class="ml-2">Agree Terms and Conditions and Privacy Policy</span>
-								</label>
-							</div>
+							<input type="text" value="Bagda Chingri"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 						</div>
-					</form>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Products Details</span> <span>(পণ্যের বিবরন):</span>
+							</div>
+							<textarea
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+								name="" id="" rows="2">11/09/2021 11.25 am</textarea>
+
+						</div>
+					</div>
+					<div class="border-b my-3 pb-2 border-gray-300 text-gray-600"><span>Buyer Details</span>
+						<span>(বায়ার বিবরন):</span>
+					</div>
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Order Number</span> <span>(অর্ডার নাম্বার):</span>
+							</div>
+							<input type="text" value="#019845658478"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Order Initiate Date</span> <span>(অর্ডার ইনেসিয়েট তাং):</span>
+							</div>
+							<input type="text" value="10/09/2021 10.00 am"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Execute Date</span> <span>(এক্সেকিউট তাং):</span>
+							</div>
+							<input type="text" value="11/09/2021 11.25 am"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+					</div>
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Buyer Name</span> <span>(বায়ার নাম):</span>
+							</div>
+							<input type="text" value="Mohammad Yusuf Ali"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Buyer ID</span> <span>(বায়ার আইডি):</span>
+							</div>
+							<input type="text" value="YUSUF/MO/002255"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+					</div>
+					<div class="mb-3">
+						<div>
+							<div class="text-gray-600 mb-2">
+								<span>Buyer Address</span> <span>(বায়ার ঠিকানা):</span>
+							</div>
+							<input type="text"
+								value="50, Lalbag Road, Lalbag, Dhaka-1230, Bangladesh. Mobile: 01984414120"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+					</div>
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Bid Quantity</span> <span>(ডাক পরিমান):</span>
+							</div>
+							<input type="text" value="450.0"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Execute Quantity</span> <span>(এক্সেকিউট পরিমান):</span>
+							</div>
+							<input type="text" value="450.0"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Bid Rate</span> <span>(ডাক দর):</span>
+							</div>
+							<input type="text" value="520.0"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+					</div>
+					<div class="mb-3">
+						<div>
+							<div class="text-gray-600 mb-2">
+								<span>Buyer Agent Details</span> <span>(বায়ার এজেন্টের বিবরন):</span>
+							</div>
+							<input type="text"
+								value="ID:10002, Name: Mohammad Abdul Karim, Address: Belabo, Narshingdi, Mobile: 01923 226013"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+					</div>
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Delivery Charge</span> <span>(ডেলিভারি চার্জ):</span>
+							</div>
+							<input type="text" value="1500"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Fee Charge</span> <span>(ফি চার্জ):</span>
+							</div>
+							<input type="text" value="11250.0"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Total Payment Amount:</span> <span>(মোট পেমেন্ট এমাউন্ট):</span>
+							</div>
+							<input type="text" value="237750.0"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Due Amount</span> <span>(ডিউ এমাউন্ট):</span>
+							</div>
+							<input type="text" value="00.0"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Paid Amount</span> <span>(পেইড এমাউন্ট):</span>
+							</div>
+							<input type="text" value="237750.0"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+					</div>
+					<div class="text-gray-600 mb-3">
+						<span>Payment Information</span> <span>(পেমেন্ট ইনফরমেশন):</span>
+					</div>
+
+					<div class="text-center mb-5 md:mb-0">
+						<button
+							class="bg-red-600 hover:bg-red-500 w-24 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Cancel</button>
+						<button
+							class="bg-green-700 hover:bg-green-600 w-24 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Save
+						</button>
+					</div>
+
 				</div>
 			</div>
 
@@ -382,10 +468,10 @@
 		<!-- Main section end -->
 
 		<script type="module" src="./assets/js/main.js"></script>
-		<!-- <script type="module" src="public/js/jquery-3.3.1.min.js"></script>
+		<script type="module" src="public/js/jquery-3.3.1.min.js"></script>
 		<script type="module" src="public/js/menu.js"></script>
 		<script type="module" src="public/js/owl.carousel.min.js"></script>
-		<script type="module" src="public/js/eshop.js"></script> -->
+		<script type="module" src="public/js/eshop.js"></script>
 	</body>
 
 </html>
