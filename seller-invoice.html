@@ -235,19 +235,19 @@
 			</div>
 
 			<div class="md:my-10 my-3 w-full md:w-11/12 m-auto">
-				<div class="mb-3 text-gray-600 text-center md:text-left">Buyer Invoice (বায়ার ইনভয়েস)</div>
+				<div class="mb-3 text-gray-600 text-center md:text-left">Seller Invoice (সেলার ইনভয়েস)</div>
 				<div class="md:border border-gray-300 md:py-5 md:px-5">
 					<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
 						<div>
 							<div class="text-gray-600 mb-2  md:flex flex-col">
-								<span>Products Category</span> <span>(পণ্য ক্যাটাগরি):</span>
+								<span>Products Name</span> <span>(পণ্যের নাম):</span>
 							</div>
 							<input type="text" value="Fresh Fish"
 								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 						</div>
 						<div>
 							<div class="text-gray-600 mb-2  md:flex flex-col">
-								<span>Products Name</span> <span>(পণ্যের নাম):</span>
+								<span>Products Sub Attribute</span> <span>(পণ্যের সাব নাম):</span>
 							</div>
 							<input type="text" value="Bagda Chingri"
 								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
@@ -262,8 +262,8 @@
 
 						</div>
 					</div>
-					<div class="border-b my-3 pb-2 border-gray-300 text-gray-600"><span>Buyer Details</span>
-						<span>(বায়ার বিবরন):</span>
+					<div class="border-b my-3 pb-2 border-gray-300 text-gray-600"><span>Seller Details</span>
+						<span>(সেলার বিবরন):</span>
 					</div>
 					<div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
 						<div>
@@ -282,25 +282,30 @@
 						</div>
 						<div>
 							<div class="text-gray-600 mb-2  md:flex flex-col">
-								<span>Execute Date</span> <span>(এক্সেকিউট তাং):</span>
-							</div>
-							<input type="text" value="11/09/2021 11.25 am"
-								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
-						</div>
-					</div>
-					<div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
-						<div>
-							<div class="text-gray-600 mb-2  md:flex flex-col">
-								<span>Buyer Name</span> <span>(বায়ার নাম):</span>
+								<span>Seller Name</span> <span>(সেলার নাম):</span>
 							</div>
 							<input type="text" value="Mohammad Yusuf Ali"
 								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 						</div>
 						<div>
 							<div class="text-gray-600 mb-2  md:flex flex-col">
-								<span>Buyer ID</span> <span>(বায়ার আইডি):</span>
+								<span>Seller Address</span> <span>(সেলার ঠিকানা):</span>
 							</div>
-							<input type="text" value="YUSUF/MO/002255"
+							<input type="text" value="Talbari, Balaibuniaya, Jessore."
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Asking Quantity</span> <span>(চাহিদার পরিমান):</span>
+							</div>
+							<input type="text" value="100"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Asking Rate</span> <span>(চাহিদার দর):</span>
+							</div>
+							<input type="text" value="500"
 								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 						</div>
 					</div>
@@ -340,7 +345,7 @@
 					<div class="mb-3">
 						<div>
 							<div class="text-gray-600 mb-2">
-								<span>Buyer Agent Details</span> <span>(বায়ার এজেন্টের বিবরন):</span>
+								<span>Seller Agent Details</span> <span>(সেলার এজেন্টের বিবরন):</span>
 							</div>
 							<input type="text"
 								value="ID:10002, Name: Mohammad Abdul Karim, Address: Belabo, Narshingdi, Mobile: 01923 226013"
@@ -348,13 +353,6 @@
 						</div>
 					</div>
 					<div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
-						<div>
-							<div class="text-gray-600 mb-2  md:flex flex-col">
-								<span>Delivery Charge</span> <span>(ডেলিভারি চার্জ):</span>
-							</div>
-							<input type="text" value="1500"
-								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
-						</div>
 						<div>
 							<div class="text-gray-600 mb-2  md:flex flex-col">
 								<span>Fee Charge</span> <span>(ফি চার্জ):</span>
@@ -367,6 +365,13 @@
 								<span>Total Payment Amount:</span> <span>(মোট পেমেন্ট এমাউন্ট):</span>
 							</div>
 							<input type="text" value="237750.0"
+								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+						</div>
+						<div>
+							<div class="text-gray-600 mb-2  md:flex flex-col">
+								<span>Booked Amount</span> <span>(বুকড এমাউন্ট):</span>
+							</div>
+							<input type="text" value="1500"
 								class="w-full rounded-md border border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 						</div>
 						<div>
@@ -394,8 +399,12 @@
 								<div> 01</div>
 							</div>
 							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
+								<div class="mr-2">Buy Order No :<br>(ক্রয় অর্ডার নং)</div>
+								<div> 248701</div>
+							</div>
+							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
 								<div class="mr-2">Pay Mode :<br>(পে মুড)</div>
-								<div> Online</div>
+								<div> Cash</div>
 							</div>
 							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
 								<div class="mr-2">Bill Amount :<br>(বিল এমাউন্ট)</div>
@@ -430,7 +439,7 @@
 					</div>
 					<div class="mb-3">
 						<div class="text-gray-600 mb-3">
-							<span>Seller Information</span> <span>(বিক্রেতার ইনফরমেশন):</span>
+							<span>Buyer Information</span> <span>(বায়ার ইনফরমেশন):</span>
 						</div>
 						<div class="grid grid-cols-1 md:grid-cols-3 mb-3">
 							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
@@ -442,16 +451,31 @@
 								<div> #170253256</div>
 							</div>
 							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
-								<div class="mr-2">Seller Details: <br>(বিক্রেতার বিবরন)</div>
+								<div class="mr-2">Buyer Details: <br>(ক্রেতার বিবরন)</div>
 								<div> Mongla Shodar</div>
 							</div>
-
 							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
-								<div class="mr-2">Asking Qty :<br>(চাহিদার পরিমান) </div>
+								<div class="mr-2">Buyer Agent Details: <br>(ক্রেতার এজেন্টের বিবরন)</div>
+								<div> Mongla Shodar</div>
+							</div>
+							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
+								<div class="mr-2">Bid Quantity :<br>(ডাক পরিমান): </div>
 								<div> 450.0</div>
 							</div>
 							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
-								<div class="mr-2">Asking Rate: <br>(চাহিদার দর) </div>
+								<div class="mr-2">Bid Rate: <br>(ডাক দর): </div>
+								<div> 500.0</div>
+							</div>
+							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
+								<div class="mr-2">Fee Pctg: <br>(ডাক দর): </div>
+								<div> 500.0</div>
+							</div>
+							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
+								<div class="mr-2">Fee Charge: <br>(ফি চার্জ):: </div>
+								<div> 500.0</div>
+							</div>
+							<div class="bg-gray-200 border border-gray-300 flex py-3 px-3">
+								<div class="mr-2">Pay Amount: <br>(পে এমাউন্ট ): </div>
 								<div> 500.0</div>
 							</div>
 
@@ -466,13 +490,15 @@
 						</div>
 						<div>
 							<button
-								class="bg-green-600 hover:bg-green-500 w-28 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Delivered</button>
+								class="bg-red-600 hover:bg-red-500 w-28 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Pending</button>
 						</div>
 					</div>
 					<div class="text-center mb-5 md:mb-0">
 						<button
-							class="bg-red-600 hover:bg-red-500 w-24 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Back</button>
+							class="bg-green-700 hover:bg-green-600 w-24 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline">Back
+						</button>
 					</div>
+
 				</div>
 			</div>
 
