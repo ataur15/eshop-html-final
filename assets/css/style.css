@@ -77,7 +77,7 @@
     }
 
     .top-menu ul li a:hover {
-        color:#539669;
+        color: #047857;
     }
 
     .nav-menu ul {
@@ -180,7 +180,7 @@
     }
 
     .footer ul li a:hover {
-        color: #539669;
+        color: #047857;
     }
 
     .footer-mid {
@@ -197,6 +197,7 @@
     .logo img {
         width: 100px;
     }
+
     nav.mean-nav.slideNav li a {
         display: flex;
         align-items: center;
