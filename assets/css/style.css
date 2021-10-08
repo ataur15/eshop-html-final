@@ -173,6 +173,31 @@
 
     }
 
+    /* Tab style for districts */
+    .rab-content {
+        display: none;
+    }
+
+    .rab-content.active {
+        display: block;
+    }
+
+    .rabs button.rab {
+        padding: 7px 12px;
+        border: 1px solid #ccc;
+        margin: 0 0 8px 0px;
+        font-weight: 500;
+    }
+
+    .rabs button.rab:focus {
+        outline: none;
+    }
+
+    .rabs button.active {
+        background: #047857;
+        color: #fff;
+    }
+
 
     .footer ul li a {
         line-height: 28px;
